@@ -1,0 +1,1 @@
+enum MenuType {calculate, music, alarm, timer, clock}
