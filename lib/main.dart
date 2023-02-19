@@ -1,8 +1,8 @@
 import 'package:bioclock/enums.dart';
+import 'package:bioclock/homepage.dart';
 import 'package:bioclock/menu_info.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'homepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: ChangeNotifierProvider<MenuInfo>(
-        create: (context) => MenuInfo(MenuType.calculate),
+        create: (context) => MenuInfo(MenuType.clock),
         child: HomePage()),
     );
   }

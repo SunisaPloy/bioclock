@@ -1,1 +1,1 @@
-enum MenuType {calculate, music, alarm, timer, clock}
+enum MenuType {clock, music, alarm, timer, calculate }

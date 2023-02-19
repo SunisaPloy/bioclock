@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart'; 
+import 'package:flutter/material.dart';
 
 class TimerPage extends StatefulWidget {
   const TimerPage({super.key});
@@ -10,8 +10,6 @@ class TimerPage extends StatefulWidget {
 class _TimerPageState extends State<TimerPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
-    );
+    return Container();
   }
 }

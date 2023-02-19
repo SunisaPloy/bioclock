@@ -4,12 +4,15 @@ import 'package:bioclock/enums.dart';
 import 'menu_info.dart';
 
 List<MenuInfo> menuItems = [
-  MenuInfo(MenuType.calculate,
-      title: "Calculate", imageSource: "assets/sleeping.png"),
+  MenuInfo(MenuType.clock,
+      title: "Clock", imageSource: "assets/clock.png"),
   MenuInfo(MenuType.music,
       title: "Music", imageSource: "assets/music-notes.png"),
   MenuInfo(MenuType.alarm, title: "Alarm", imageSource: "assets/alarm.png"),
   MenuInfo(MenuType.timer, title: "Timer", imageSource: "assets/timer.png"),
+  MenuInfo(MenuType.calculate,
+      title: "Calculate", imageSource: "assets/sleeping.png"),
+
 ];
 
 List<AlarmInfo> alarms = [

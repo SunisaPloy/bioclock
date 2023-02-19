@@ -4,7 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class ClockView extends StatefulWidget {
-  const ClockView({super.key});
+  const ClockView({super.key, required double size});
 
   @override
   State<ClockView> createState() => _ClockViewState();
